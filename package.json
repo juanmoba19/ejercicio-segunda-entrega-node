@@ -2,15 +2,19 @@
     "name": "servidor",
     "version": "1.0.0",
     "description": "organizacion con express",
-    "main": "index.js",
+    "main": "src/app",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "juan.molina",
     "license": "ISC",
     "dependencies": {
+        "body-parser": "^1.18.3",
+        "bootstrap": "^4.3.1",
         "express": "^4.16.4",
-        "hbs": "^4.0.3"
+        "hbs": "^4.0.3",
+        "jquery": "^3.3.1",
+        "popper.js": "^1.14.7"
     },
     "devDependencies": {
         "nodemon": "^1.18.10"
